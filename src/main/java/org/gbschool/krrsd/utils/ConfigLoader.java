@@ -1,4 +1,4 @@
-package org.gbschool.krrsd.config;
+package org.gbschool.krrsd.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

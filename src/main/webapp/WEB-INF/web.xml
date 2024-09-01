@@ -8,11 +8,11 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-  	<servlet-name>loginservice</servlet-name>
-  	<servlet-class>org.gbschool.krrsd.controller.LoginServlet</servlet-class>
+  	<servlet-name>usercontroller</servlet-name>
+  	<servlet-class>org.gbschool.krrsd.controller.</servlet-class>
   </servlet>
   <servlet-mapping>
-	  <servlet-name>loginservice</servlet-name>
+	  <servlet-name>usercontroller</servlet-name>
 	  <url-pattern>/login</url-pattern>
   </servlet-mapping>
 </web-app>
