@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+#header {
+    border: 1px solid;
+}
+
+#socialMediaStrip {
+    width: 100%;
+    height: 50px;
+    background-color: #094279;
+    border: 2px solid blanchedalmond;
+}
+
+.socialMediaStrip a {
+    margin-left: 15px;
+    color: white;
+}
+
+#contactinfo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+#contactinfo span {
+    font-size: 90%;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#mediaLast {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logoStrip {
+    background-color: #e1fefe;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease;
+}
+
+#menuStrip {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 240px;
+}
+
+#menuStrip nav a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#menuStrip nav a:hover {
+    color: blue;
+}
