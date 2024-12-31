@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (orientation: landscape) {
+	.carousel img {
+		height: 100vh;
+	}
+	.custom-carousel {
+		max-height: 400px; /* Adjust the height as needed */
+		overflow: hidden;
+	}
+
+	/* Make the images fit within the defined height */
+	.custom-carousel .carousel-inner img {
+		height: 100%;
+		object-fit: cover;
+	}
+}

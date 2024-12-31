@@ -1,14 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>G B School</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/public/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/public/css/common/style.css">
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/public/css/screens/header.css">
-</head>
+
 <body>
     <div class="row" id="header">
         <div class="row no-gutters" id="socialMediaStrip">
@@ -38,16 +31,16 @@
                 </div>
                 <div class="row" id="menuStrip">
                     <nav>
-                        <a href="${pageContext.request.contextPath}/home.jsp">HOME</a>
+                        <a href="${pageContext.request.contextPath}/home">HOME</a>
                         <a href="${pageContext.request.contextPath}/about.jsp">About us</a>
                         <a href="${pageContext.request.contextPath}/gallery.jsp">Gallery</a>
-                        <a href="${pageContext.request.contextPath}/login.jsp">Login</a>
+                        <a href="${pageContext.request.contextPath}/admin/login">Login</a>
                     </nav>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="${pageContext.request.contextPath}/public/javascript/vendor/bootstrap.bundle.min.js"></script>
+    <%-- <script src="${pageContext.request.contextPath}/public/javascript/vendor/bootstrap.bundle.min.js"></script> --%>
 </body>
 </html>
