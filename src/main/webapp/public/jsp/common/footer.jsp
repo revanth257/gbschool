@@ -1,9 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-
-<body>
+<footer>
 	<div class="row" style="background-color: aliceblue;">
 		<div class="row" style="height: 200px; padding: 20px;">
 			<div class="col-md-4 footer">
@@ -51,11 +46,14 @@
 						By</div>
 					<div class="col-md-6">
 						<img style="width: 20px; height: 20px;"
-							src="./media/logo/logo.png" alt="KRRSD">
+							src="${pageContext.request.contextPath}/public/media/logo/logo.png" alt="KRRSD">
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</footer>
+<script
+	src="${pageContext.request.contextPath}/public/javascript/vendor/bootstrap.bundle.min.js"></script>
 </body>
 </html>
