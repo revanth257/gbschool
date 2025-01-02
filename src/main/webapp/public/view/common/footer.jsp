@@ -46,7 +46,8 @@
 						By</div>
 					<div class="col-md-6">
 						<img style="width: 20px; height: 20px;"
-							src="${pageContext.request.contextPath}/public/media/logo/logo.png" alt="KRRSD">
+							src="${pageContext.request.contextPath}/public/media/logo/logo.png"
+							alt="KRRSD">
 					</div>
 				</div>
 			</div>
@@ -55,5 +56,6 @@
 </footer>
 <script
 	src="${pageContext.request.contextPath}/public/javascript/vendor/bootstrap.bundle.min.js"></script>
+<script src="${pageContext.request.contextPath}${pageJs}"></script>
 </body>
 </html>

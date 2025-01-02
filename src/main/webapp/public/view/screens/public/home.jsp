@@ -71,4 +71,8 @@
 		</button>
 	</div>
 </main>
+<%
+    // Set the path to the page-specific CSS
+    request.setAttribute("pageJs", "/public/javascript/screens/home.js");
+%>
 <%@ include file="../../common/footer.jsp" %>

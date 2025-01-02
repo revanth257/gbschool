@@ -2,9 +2,6 @@
 
 
 
-<%@ include file="public/jsp/common/header.jsp" %>
-<main>
-    <h1>Welcome to GB School</h1>
-    <p>This is the main landing page.</p>
-</main>
-<%@ include file="public/jsp/common/footer.jsp" %>
+<%@ include file="public/view/common/header.jsp" %>
+<main></main>
+<%@ include file="public/view/common/footer.jsp" %>
