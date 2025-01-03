@@ -14,6 +14,8 @@
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/public/css/screens/header.css">
 <link rel="stylesheet"
+	href="${pageContext.request.contextPath}/public/css/screens/footer.css">
+<link rel="stylesheet"
 	href="${pageContext.request.contextPath}${pageCss}">
 </head>
 <body>
