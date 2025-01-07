@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+signupbody {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+    font-size: 2.5rem;
+}
+
+form label {
+    font-size: 1.1rem;
+    color: #495057;
+}
+
+button {
+    font-size: 1.2rem;
+}
+
+button i {
+    margin-right: 8px;
+}

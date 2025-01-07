@@ -41,11 +41,3 @@ document.getElementById('forgotPassword').addEventListener('click', function (ev
     // Redirect to forgot password page (or open a modal)
     window.location.href = "/forgot-password";
 });
-
-// Event listener for "Sign Up"
-document.getElementById('signUp').addEventListener('click', function (event) {
-    event.preventDefault();
-    alert('Redirecting to Sign Up page...');
-    // Redirect to sign-up page
-    window.location.href = "/sign-up";
-});

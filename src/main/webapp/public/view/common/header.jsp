@@ -5,10 +5,11 @@
 <head>
 <meta charset="UTF-8">
 <title>G B School</title>
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/public/media/common/hogwarts-school.png">
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/public/css/vendor/bootstrap.min.css">
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/public/css/common/all.min.css">
+	href="${pageContext.request.contextPath}/public/css/vendor/all.min.css">
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/public/css/common/style.css">
 <link rel="stylesheet"
@@ -53,6 +54,7 @@
 							<a href="${pageContext.request.contextPath}/home">HOME</a> 
 							<a href="${pageContext.request.contextPath}/aboutus">About us</a> 
 							<a href="${pageContext.request.contextPath}/gallery">Gallery</a>
+							<a href="${pageContext.request.contextPath}/contactus">Contact Us</a>
 							<a href="${pageContext.request.contextPath}/login">Login</a>
 						</nav>
 					</div>

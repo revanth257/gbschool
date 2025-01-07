@@ -8,6 +8,7 @@ public class UserDetailsDTO {
 	private String email;
 	private String user_type;
 	private String username;
+	private String password;
 	
 	
 	public String getUsername() {
@@ -35,6 +36,13 @@ public class UserDetailsDTO {
 	}
 	public void setPhoneno(String phoneno) {
 		this.phoneno = phoneno;
+	}
+	
+	public String getPassword() {
+		return phoneno;
+	}
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	public String getEmail() {

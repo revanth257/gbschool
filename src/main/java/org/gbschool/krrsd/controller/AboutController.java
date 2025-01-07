@@ -7,10 +7,10 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/about")
+@WebServlet("/aboutus")
 public class AboutController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/public/jsp/screens/about.jsp").forward(request, response);
+        request.getRequestDispatcher("/public/view/screens/public/aboutus.jsp").forward(request, response);
     }
 }

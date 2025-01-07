@@ -2,73 +2,102 @@
 	pageEncoding="UTF-8"%>
 
 <%
-    // Set the path to the page-specific CSS
-    request.setAttribute("pageCss", "/public/css/screens/home.css");
+// Set the path to the page-specific CSS
+request.setAttribute("pageCss", "/public/css/screens/gallery.css");
 %>
-<%@ include file="../../common/header.jsp" %>
+<%@ include file="../../common/header.jsp"%>
 
 <main>
-	<div id="carouselExampleCaptions" class="carousel slide">
-		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleCaptions"
-				data-bs-slide-to="0" class="active" aria-current="true"
-				aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carouselExampleCaptions"
-				data-bs-slide-to="1" aria-label="Slide 2"></button>
-			<button type="button" data-bs-target="#carouselExampleCaptions"
-				data-bs-slide-to="2" aria-label="Slide 3"></button>
+	<div class="row gallery-theme">
+		<div>
+			<h1 style="color: black">Photo Gallery</h1>
 		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img
-					src="https://codingyaar.com/wp-content/uploads/dark-flowers-1.png"
-					class="d-block w-100" alt="...">
-				<div
-					class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bottom-0">
-					<h2 class="bg-dark bg-opacity-50 py-2 px-4">First slide label</h2>
-					<p class="bg-dark bg-opacity-50 py-2 px-4">Some representative
-						placeholder content for the first slide.</p>
-					<a href="#" class="btn btn-outline-light px-4 py-2 rounded-0">Learn
-						More</a>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img
-					src="https://codingyaar.com/wp-content/uploads/dark-flowers-2.png"
-					class="d-block w-100" alt="...">
-				<div
-					class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bottom-0 ">
-					<h2 class="bg-dark bg-opacity-50 py-2 px-4">Second slide label</h2>
-					<p class="bg-dark bg-opacity-50 py-2 px-4">Some representative
-						placeholder content for the second slide.</p>
-					<a href="#" class="btn btn-outline-light px-4 py-2 rounded-0">Learn
-						More</a>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img
-					src="https://codingyaar.com/wp-content/uploads/dark-flowers-3.png"
-					class="d-block w-100" alt="...">
-				<div
-					class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bottom-0">
-					<h2 class="bg-dark bg-opacity-50 py-2 px-4">Third slide label</h2>
-					<p class="bg-dark bg-opacity-50 py-2 px-4">Some representative
-						placeholder content for the third slide.</p>
-					<a href="#" class="btn btn-outline-light px-4 py-2 rounded-0">Learn
-						More</a>
-				</div>
+		<div class="row">
+			<div class="col-md-9"></div>
+
+			<div class="col-md-3 filterDiv">
+				<h3>Filter:</h3>
+				<select class="form-select" aria-label="Default select example">
+					<option selected>Open this select menu</option>
+					<option value="1">One</option>
+					<option value="2">Two</option>
+					<option value="3">Three</option>
+				</select>
 			</div>
 		</div>
-		<button class="carousel-control-prev" type="button"
-			data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
-				class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button"
-			data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span> <span
-				class="visually-hidden">Next</span>
-		</button>
+		<div class="accordion" id="accordionPanelsStayOpenExample">
+			<div class="accordion-item">
+				<h2 class="accordion-header">
+					<button class="accordion-button collapsed" type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+						aria-controls="panelsStayOpen-collapseOne">
+						Ugadi</button>
+				</h2>
+				<div id="panelsStayOpen-collapseOne"
+					class="accordion-collapse collapse hide">
+					<div class="accordion-body">
+						<button type="button" class="btn btn-outline-success btn-right"
+							style="margin: 12px 10px 12px 0px">
+							Download</button>
+						<div class="gallery" style="margin-top: 46px">
+							<div id="image-gallery" class="images"></div>
+							<div id="gallery-pagination">
+								<button id="btnPrevious">
+									&larr; <span class="sr-only">Previous</span>
+								</button>
+								<div>
+									<div id="gallery-dots"></div>
+									<span id="page"></span>
+								</div>
+								<button id="btnNext">
+									<span class="sr-only">Next </span>&rarr;
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="accordion" id="accordionPanelsStayOpenExample">
+			<div class="accordion-item">
+				<h2 class="accordion-header">
+					<button class="accordion-button" type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
+						aria-controls="panelsStayOpen-collapseTwo">
+						Christmas</button>
+				</h2>
+				<div id="panelsStayOpen-collapseTwo"
+					class="accordion-collapse collapse show">
+					<div class="accordion-body">
+						<button type="button" class="btn btn-outline-success btn-right"
+							style="margin: 12px 10px 12px 0px">
+							Download</button>
+						<div class="gallery" style="margin-top: 46px">
+							<div id="image-gallery" class="images"></div>
+							<div id="gallery-pagination">
+								<button id="btnPrevious">
+									&larr; <span class="sr-only">Previous</span>
+								</button>
+								<div>
+									<div id="gallery-dots"></div>
+									<span id="page"></span>
+								</div>
+								<button id="btnNext">
+									<span class="sr-only">Next </span>&rarr;
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </main>
-<%@ include file="../../common/footer.jsp" %>
+<%
+// Set the path to the page-specific CSS
+request.setAttribute("pageJs", "/public/javascript/screens/gallery.js");
+%>
+<%@ include file="../../common/footer.jsp"%>

@@ -24,10 +24,10 @@ request.setAttribute("pageCss", "/public/css/screens/login.css");
 
 			<button type="submit" class="btn">Login</button>
 
-			<div class="links">
+			<div class="fplinks">
 				<a href="#" id="forgotPassword">Forgot Password?</a>
 				<p>
-					Don't have an account? <a href="#" id="signUp">Sign Up</a>
+					Don't have an account? <a href="/signup" id="signUp">Sign Up</a>
 				</p>
 			</div>
 		</form>

@@ -55,17 +55,17 @@ button:hover {
     background-color: #055c7a;
 }
 
-.links {
+.fplinks {
     text-align: center;
     margin-top: 15px;
 }
 
-.links a {
+.fplinks a {
     text-decoration: none;
     color: #094279;
 }
 
-.links a:hover {
+.fplinks a:hover {
     text-decoration: underline;
 }
 
