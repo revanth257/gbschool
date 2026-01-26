@@ -24,9 +24,9 @@
 		<div class="row" id="header">
 			<div class="row no-gutters" id="socialMediaStrip">
 				<div class="col-md-4 socialMediaStrip" id="mediaLast">
-					<a href="#"><i class="fab fa-facebook-square fa-2x"></i></a> <a
-						href="#"><i class="fab fa-instagram fa-2x"></i></a> <a href="#"><i
-						class="fab fa-twitter-square fa-2x"></i></a>
+					<a href="#"><i class="fab fa-facebook-square fa-2x"></i></a> 
+					<a href="https://www.instagram.com/goldenbridgeschool_2024/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a> 
+					<a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
 				</div>
 				<div class="col-md-4 socialMediaStrip"></div>
 				<div class="col-md-4 socialMediaStrip" id="contactinfo">

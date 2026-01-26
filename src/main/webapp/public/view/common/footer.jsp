@@ -15,9 +15,10 @@
 			</div>
 			<!-- Useful Links -->
 			<div class="col-md-4 footer text-center">
-				<span class="links" style="font-weight: 600;">Useful Links</span> <span
-					class="links">Home</span> <span class="links">About Us</span> 
-					<a href="/contactus"><span class="links">Contact Us</span></a>
+				<span class="links" style="font-weight: 600;">Useful Links</span> 
+				<span class="links">Home</span> 
+				<span class="links">About Us</span> 
+				<span class="links">Contact Us</span>
 					
 				<!-- <span class="links">FAQ</span>
                 <span class="links">Cookies</span> -->
@@ -37,7 +38,7 @@
 		</div>
 
 		<!-- Second Row with Terms, Cookies, FAQ -->
-		<div class="row ">
+		<div class="row " style="padding: 10px 0px; align-items: center;">
 			<div class="col-md-3 footer-links">
 				<span class="footer-links">Terms & Conditions</span> <span
 					class="footer-links">Cookies</span> <span class="footer-links">FAQ</span>

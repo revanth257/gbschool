@@ -50,7 +50,7 @@ request.setAttribute("pageCss", "/public/css/screens/signup.css");
 					</button>
 				</form>
 				<p class="text-center mt-3">
-					Already registered? <a href="login.jsp">Login here</a>.
+					Already registered? <a href="login">Login here</a>.
 				</p>
 			</div>
 		</div>
